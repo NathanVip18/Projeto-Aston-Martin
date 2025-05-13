@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #000000;
 }
 
 .header{
@@ -29,21 +29,22 @@ body{
  .banner{
     width: 1276px;
     height: 366px;
+    background-color: #000000;
     margin: 232px 321px;
+    padding: 10px;
     display: flex;
+ }
+
+ .box1{
  }
 
  h2{
     color: #f0f0f0;
  }
 
- destaque{
-    font-size: 60px;
-    font-weight: bold;
- }
-
  p{
     color: #f0f0f0;
+    margin: 60px auto;
  }
 
  a{
@@ -54,8 +55,19 @@ body{
     padding: 8px 16px;
  }
 
- .imagem{
-    width: 850;
-    height: 366;
-
+ btn{
+   
  }
+
+ .destaque{
+    font-size: 60px;
+    font-weight: bold;
+ }
+
+.box2{
+   margin: 48px auto;
+   padding: 15px;
+   display: flex;
+ }
+ 
+
