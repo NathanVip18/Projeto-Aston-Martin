@@ -107,6 +107,18 @@ body{
    height: 340px;
    background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
    margin: 0 auto 157px;
-   display: flex;
    margin: 1090px 304px 336px 320px;
+}
+
+.box6{
+   width: 583.23px;
+   height: 340px;
+   display: flex;
+   margin: 0 auto 157px;
+}
+
+.box5{
+   margin: 0 auto;
+   width: 583.23px;
+   height: 340px;
 }
