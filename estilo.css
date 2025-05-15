@@ -225,20 +225,111 @@ body{
    color: #000000;
 }
 
+/*Mobile*/
+
 @media screen and (max-width: 1023px) {
-    .header{
-        flex-direction: column;
-        align-items: center;
+    .container {
+        width: 95%; /* Largura um pouco maior para tablets */
     }
 
-    .container{
-         flex-direction: column;
-         align-items: center;
+    .banner1,
+    .banner2,
+    .bannercolorido {
+        width: 95%; /* Largura um pouco maior para tablets */
+        margin: 20px auto; /* Margens menores */
+        flex-direction: column; /* Empilha os elementos */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Centraliza o texto */
     }
 
-    .banner1{
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
+    .box2 img,
+    .box3 img,
+    .box6 img {
+        max-width: 80%; /* Imagens um pouco menores em tablets */
+        height: auto;
     }
+
+    .box1,
+    .box4 {
+        text-align: center;
+    }
+
+    .menu {
+        /* Estilos para o menu em tablets (pode ser uma versão mais simples ou a base para um menu dropdown/hambúrguer) */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+    }
+
+    .destaque {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    .ultimate700 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 30px auto;
+    }
+
+    .box5 {
+        margin: 30px auto;
+    }
+
+    .box6 {
+        margin: 30px auto;
+    }
+
+    .caixa1 {
+        width: 95%;
+    }
+
+    .caixa1 hr {
+        width: 90%;
+    }
+
+    .rodape .aviso {
+        font-size: 13px;
+    }
+
+    .caixa2 {
+        width: 95%;
+        height: auto;
+    }
+
+    .caixa2 hr {
+        width: 90%;
+    }
+
+    .rodape .creditos {
+        font-size: 13px;
+        flex-direction: row; /* Mantém os créditos e links na mesma linha em tablets maiores */
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .rodape .links {
+        margin-top: 0;
+    }
+
+    .rodape .links a {
+        margin-left: 15px;
+    }
 }
