@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Inter";
 }
 
 body {
@@ -25,7 +25,6 @@ body {
     align-items: center;
     padding: 0 24px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 
@@ -74,10 +73,15 @@ body {
     padding: 0 24px;
 }
 
+.container2 p{
+  font-weight: 300;
+  font-size: 16px;
+}
+
 .container2 img {
     max-width: 1280px;
     width: 850px;
-    height: 366px;
+    height: auto;
 }
 
 h2 {
@@ -85,10 +89,10 @@ h2 {
     margin-bottom: 16px;
     display: flex;
     align-items: center;
+    font-family: "Inter";
 }
 
 .destaque {
-    font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 60px;
     letter-spacing: 1px;
@@ -97,7 +101,7 @@ h2 {
 }
 
 .ultimate700{
-  font-family: 'inter', sans-serif;
+  font-family: "Inter";
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -119,11 +123,12 @@ h2 {
 
 .container3 p {
     width: 350px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24.2px;
     color: #ccc;
     letter-spacing: 1px;
     vertical-align: middle;
+    font-family: "Inter";
 }
 
 .botao,
@@ -161,6 +166,11 @@ h2 {
     padding: 0 24px;
     margin: 100px auto 80px;
 }
+
+.container4 h2{
+  font-size: 36px;
+  font-weight: 600;
+}
 .container4 p{
     width: 400px;
     font-size: 17px;
@@ -182,7 +192,6 @@ h2 {
 
 .banner-texto {
     flex: 1;
-    min-width: 280px;
 }
 
 .banner-texto h1 {
@@ -193,17 +202,19 @@ h2 {
 }
 
 .banner-texto p {
-    font-size: 15px;
+    font-size: 17px;
     color: #ddd;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    
+    line-height: 27.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 396px;
 }
 
 .botao-banner {
-    height: 40px;
+    width: 217px;
+    height: 46px;
     display: inline-block;
-    padding: 12px 28px;
+    padding: 10px 28px;
     background-color: #000000;
     color: #f0f0f0;
     border: 1px solid #FFFFFF;
